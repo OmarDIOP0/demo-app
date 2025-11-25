@@ -5,11 +5,13 @@ using System.Text;
 
 namespace UsageCollections
 {
-    public class Employé
+    public class Etudiant
     {
-        public string Nom { get; set; }
+        public string NumeroOrdre { get; set; }
         public string PréNom { get; set; }
 
-        public string Matricule { get; set; }
+        public string Nom { get; set; }
+        public float NoteCC { get; set; }
+        public float NoteDevoir { get; set;
     }
 }
