@@ -7,11 +7,11 @@ namespace UsageCollections
 {
     public class Etudiant
     {
-        public string NumeroOrdre { get; set; }
+        public int NO { get; set; }
         public string PréNom { get; set; }
 
         public string Nom { get; set; }
-        public float NoteCC { get; set; }
-        public float NoteDevoir { get; set;
+        public double NoteCC { get; set; }
+        public double NoteDevoir { get; set; }
     }
 }
